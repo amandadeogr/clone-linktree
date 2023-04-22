@@ -1,0 +1,29 @@
+.header {
+   align-items: center;
+   display: flex;
+   padding: 2rem;
+}
+
+.image-profile {
+   background: linear-gradient(white, white) padding-box, linear-gradient(to right, #af13f7, #0b58e6, #5600f7) border-box;
+   border: 3px solid transparent;
+   border-radius: 100%;
+   margin-right: 1rem;
+   width: 5rem;
+}
+
+.name-profile {
+   color: white;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.subtitle-profile {
+   color: rgb(131, 131, 131);
+}
+
+@media (min-width: 420px) {
+   .header {
+      justify-content: center;
+   }
+}
